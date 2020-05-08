@@ -21,10 +21,10 @@
                 <span></span>
                 <span></span>
                 <ul id="menu" class="hamburgerlink">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="portfolio.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="portfolio.php">Projects</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
                 </div>
         </nav>
@@ -38,7 +38,7 @@
     </div>
     <div class="mobilesite">
         <header id="mobileheader">
-            <a href="index.html"><img src="img/home.png" alt="home link" id="homeicon"></a>
+            <a href="index.php"><img src="img/home.png" alt="home link" id="homeicon"></a>
             <h1 id="subh1">PROJECTS</h1>
             <main>
                 <div class="portfolioimg" id="port1"><img src="img/site1.jpg" alt="topsail beach redesign"></div>
