@@ -8,8 +8,7 @@
     <link media="screen" rel="stylesheet" type="text/css" href="css/reset.css">
     <link media="screen" rel="stylesheet"  type="text/css" href="css/template.css">
     </head>
-<header>    
-</header>
+    
 <body>
     <div id="socialmediaicons">
         <a href="https://www.twitter.com/"><img src="img/social/twitter.png" alt="twitter logo" id="twittersoc"></a>
@@ -18,7 +17,7 @@
         <a href="https://dansites.design.blog/"><img src="img/social/wordpress.png" alt="wordpress logo" id="wordpresssoc"></a>
     </div>
     <div class="mobilesite">
-        <div id="squaregrid">
+        <div id="squaregrid" class="slide-in-left">
             <a href="about.php"><div id="square1" class="square"><h1>ABOUT</h1></div></a>
             <a href="portfolio.php"><div id="square2" class="square"><h1>PORTFOLIO</h1></div></a>
             <a href="contact.php"><div id="square3" class="square"><h1>CONTACT</h1></div></a>
