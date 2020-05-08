@@ -10,7 +10,7 @@
 
 body{
     font-family: "Red Hat Display";
-    min-height: 860px;
+    height: 100vh;
     background-color: var(--main-color-1);
 }
 
