@@ -36,8 +36,8 @@
     </div>
     <div class="desktopsite">
         <header id="desktopheader">
-            <h1 id="desktoptitle">DANIEL SARGENT</h1>
-            <h2 id="desktopsub">FRONT-END DEVELOPER & DESIGNER</h2>
+            <h1 id="desktoptitle" class="slide-in-right">DANIEL SARGENT</h1>
+            <h2 id="desktopsub" class="slide-in-right">FRONT-END DEVELOPER & DESIGNER</h2>
         </header>
     </div>
 </body>
