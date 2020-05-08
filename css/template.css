@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display');
+
+:root{
+    --main-color-1: #D9D9D9;
+    --accent-color-1: #FCFCFC; 
+    --accent-color-2: #707070;
+    --accent-color-3: #282828;
+    --accent-color-4: #808080;
+}
+
+body{
+    font-family: "Red Hat Display";
+    min-height: 860px;
+    background-color: var(--main-color-1);
+}
+
+/* Mobile */
+
+.desktopsite{
+    display: none;
+}
+
+#squaregrid{
+    display: none;
+}
+
+#socialmediaicons{
+    display: none;
+}
+
+#homeicon{
+    position: fixed;
+    filter: brightness(2);
+    z-index: 1;
+    width: 22px;
+    height: 20px;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+#mobileheader{
+    grid-area: h;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#mobiletitle{
+    font-size: 65px;
+    color: var(--accent-color-1);
+    text-align: left;
+    padding: 80px 10px 0 0;
+    position: absolute;
+    right: 0;
+    
+}
+
+#mobilesub{
+    font-size: 25px;
+    color: var(--accent-color-1);
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.mobilesite{
+    display:grid;
+    max-width: 100%;
+    height: 100vh;
+    grid-template-areas: 
+    "h h"
+    "abt twt"
+    "lkdn port"
+    "cont git";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr;
+}
+
+.mobileblock{
+    text-align:center;
+    margin:0;
+    padding:2em;
+    background-color:var(--accent-color-1);
+    position: relative;
+}
+.mobileblock p{
+    font-size: 35px;
+    color:var(--accent-color-2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mobileblock img{
+    width: 85px;
+}
+
+#mobileheader{grid-area:h;}
+#aboutblock{grid-area:abt;}
+#twitterblock{grid-area:twt;background-color: #1da1f3;}
+#linkedinblock{grid-area:lkdn; background-color: #2868b2;}
+#portfolioblock{grid-area:port;}
+#contactblock{grid-area:cont;}
+#githubblock{grid-area:git; background-color: #24292d;}
+
+a{
+    display:contents;
+}
+
+main{
+    position: relative;
+    margin: 0;
+    height: 70vh;
+    padding: 1em;
+    font-family: Arial;
+    font-size: 18px;
+    background-color: var(--accent-color-1);
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+main::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+
+#subh1{
+    font-size: 80px;
+    margin-top: 2em;
+    margin-bottom: 20px;
+    color: var(--accent-color-1);
+    text-align: center;
+}
+
+main p{
+    padding: 1em;
+    margin: 0 1em;
+    line-height: 2em;
+}
+
+.button{
+    background-color: var(--accent-color-1);
+    text-align: center;
+    padding: 1em;
+    width: 100px;
+    
+}
+
+#button1{position: absolute; left: 0; top: 80px; }
+    #button2{position: absolute; left: 0; top: 20px;}
+
+.formblock{
+    text-align: center;
+}
+
+#profimg{
+    display: block;
+    padding: 1em;
+    width: 300px;
+    margin: auto;
+    
+}
+
+#menuToggle{
+    position: fixed;
+    display: block;
+    top: 15px;
+    left: 15px;
+    z-index: 1;
+}
+
+
+#menuToggle span{
+    position: relative;
+    display: block;
+    width: 22px;
+    height: 2px;
+    margin-bottom: 5px;
+    background: var(--accent-color-4);
+    z-index: 2;
+}
+
+
+#menuToggle input{
+    position: fixed;
+    display: block;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+}
+
+#menu{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin: -100px 0 0 -50px;
+    padding: 5em 3em;
+    background-color: white;
+    transform-origin: 0% 0%;
+    transform: translate(0, -100%);
+    transition: transform .75s;
+    font-family: "Red Hat Display";
+  
+}
+
+#menu li{
+    display: block;
+    margin: .2em;
+    padding: 1em 2em;
+    text-align: left;
+    font-size: 2em;
+    color: var(--accent-color-4);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+#menuToggle input:checked ~ ul{
+    transform: none;
+}
+
+.hamburgerlink a:link{
+    text-decoration: none;
+    color: darkgrey;
+}
+.hamburgerlink a:hover{
+    text-decoration: none;
+    color: darkgrey;
+}
+.hamburgerlink a:visited{
+    text-decoration: none;
+    color: darkgrey;
+}
+.hamburgerlink a:active{
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.portfolioimg img{
+   display: block;
+   max-width: 90%;
+   margin: auto;
+}
+
+.projecttitles{
+    text-align: center;
+    padding: 1.5em;
+    font-size: 1.5em;
+    font-family: "Red Hat Display";
+    font-weight: bold;
+}
+
+#resumethumb{
+    display:block;
+    width: 300px;
+    margin:auto;
+}
+
+#resumetitle{
+    text-align: center;
+}
+
+
+
+/* ------------------------Start of Media Query ----------------------------- */
+
+@media only screen and (min-width: 875px){
+    
+    #menu, #menuToggle{
+        display: none;    
+    }
+    
+    .desktopsite{
+        display: contents;
+    }
+    
+    .mobilesite{
+        display:grid;
+        max-width: 100%;
+        grid-template-areas: 
+        "h"
+        "b";
+        grid-template-columns: auto;
+        grid-template-rows: repeat(2, 1fr);
+        background-color: var(--main-color-1);
+    }
+
+    .mobileblock{display:none;}
+    
+    #mobileheader{
+    grid-area: h;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+}
+    #mobiletitle{display: none;}
+    #mobilesub{display: none;}
+    
+    #desktoptitle{
+    font-size: 4rem;
+    color: var(--accent-color-1);
+    text-align: left;
+    padding: 10px;
+    position: absolute;
+    top: 41%;
+    right: 0;
+    }
+    
+    #desktopsub{
+        position: absolute;
+        font-size: 20px;
+        color: var(--accent-color-3);
+        text-align: right;
+        bottom: 46%;
+        right: 0;
+        padding: 10px;
+       
+    }
+
+    .square{
+        background-color: white;
+        width: 135px;
+        height: 135px;
+    }
+    
+    #squaregrid{
+        display: grid;
+        padding: 10px;
+        height: 100%;
+        z-index: 1;
+        position: absolute;
+        grid-template-areas: 
+            ". ."
+            ". ."
+            "s1 ."
+            ". s2"
+            "s3 ."
+            ". ."
+            ". .";
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+    }
+    
+    .squarecompact{
+        background-color: white;
+        width: 50px;
+        height: 135px;
+    }
+    
+    #squaregridcompact{
+        display: grid;
+        padding: 10px;
+        height: 100%;
+        z-index: 1;
+        position: absolute;
+        grid-template-areas: 
+            ". ."
+            ". ."
+            "s1 ."
+            "s2 ."
+            "s3 ."
+            ". ."
+            ". .";
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        grid-gap: 1px;
+    }
+    
+    #squaregridcompact h1{
+        transform: rotate(90deg);
+        text-align: center;
+        padding-left: 47px;
+    }
+    
+    #squaregrid h1{
+        text-align: center;
+        padding-top: 60px;
+    }
+        
+    #square1{grid-area:s1;}
+    #square2{grid-area:s2;}
+    #square3{grid-area:s3;}   
+
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: var(--accent-color-3);
+}
+
+#socialmediaicons{
+    display: grid;
+    position: absolute;
+    z-index: 1;
+    grid-template-areas:"twt lkdn git wrd";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    right: 0;
+}
+
+#socialmediaicons img{
+    width: 30px;
+    height: 30px;
+    padding: .5em;
+}
+
+#twittersoc{grid-area: twt;}
+#linkedinsoc{grid-area: lkdn;}
+#githubsoc{grid-area: git;}
+#wordpresssoc{grid-area: wrd;}
+
+#homeicon{
+    position: relative;
+    z-index: 1;
+    filter:brightness(2);
+    width: 22px;
+    height: 20px;
+    margin: 10px;
+}
+    
+main{
+    position: relative;
+    margin: 0 6em;
+}
+    
+
+.button{
+    background-color: var(--accent-color-1);
+    text-align: center;
+    padding: 1em;
+    width: 100px;
+    transform: rotate(270deg);
+    
+}
+
+#button1{position: absolute; right: 0; top: 450px}
+#button2{position: absolute; right: 0; top: 600px}
+}
+
