@@ -11,10 +11,10 @@
     
 <body>
     <div id="socialmediaicons">
-        <a href="https://www.twitter.com/"><img src="img/social/twitter.png" alt="twitter logo" id="twittersoc"></a>
-        <a href="https://www.linkedin.com/"><img src="img/social/linkedin.png" alt="linkedin logo" id="linkedinsoc"></a>
-        <a href="https://www.github.com/"><img src="img/social/github.png" alt="github logo" id="githubsoc"></a>
-        <a href="https://dansites.design.blog/"><img src="img/social/wordpress.png" alt="wordpress logo" id="wordpresssoc"></a>
+        <a href="#"><img src="img/social/twitter.png" alt="twitter logo" id="twittersoc"></a>
+        <a href="https://www.linkedin.com/in/daniel-s-bb14261a7/"><img src="img/social/linkedin.png" alt="linkedin logo" id="linkedinsoc"></a>
+        <a href="https://github.com/dsargen25"><img src="img/social/github.png" alt="github logo" id="githubsoc"></a>
+        <a href="#"><img src="img/social/wordpress.png" alt="wordpress logo" id="wordpresssoc"></a>
     </div>
     <div class="mobilesite">
         <div id="squaregrid" class="slide-in-left">
@@ -28,10 +28,10 @@
             <h2 id="mobilesub">FRONT-END DEVELOPER <br> & DESIGNER</h2>
         </header>
         <a href="about.php"><div id="aboutblock" class="mobileblock"><p>ABOUT</p></div></a>
-        <a href="https://www.twitter.com/"><div id="twitterblock" class="mobileblock"><img src="img/social/twitter.png" alt="twitter logo"></div></a>
-        <a href="https://www.linkedin.com/"><div id="linkedinblock" class="mobileblock"><img src="img/social/linkedin.png" alt="linkedin logo"></div></a>
+        <a href="#"><div id="twitterblock" class="mobileblock"><img src="img/social/twitter.png" alt="twitter logo"></div></a>
+        <a href="https://www.linkedin.com/in/daniel-s-bb14261a7/"><div id="linkedinblock" class="mobileblock"><img src="img/social/linkedin.png" alt="linkedin logo"></div></a>
         <a href="portfolio.php"><div id="portfolioblock" class="mobileblock"><p>PORTFOLIO</p></div></a>
-        <a href="https://www.github.com/"><div id="githubblock" class="mobileblock"><img src="img/social/github.png" alt="github logo"></div></a>
+        <a href="https://github.com/dsargen25"><div id="githubblock" class="mobileblock"><img src="img/social/github.png" alt="github logo"></div></a>
         <a href="contact.php"><div id="contactblock" class="mobileblock"><p>CONTACT</p></div></a>
     </div>
     <div class="desktopsite">

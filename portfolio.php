@@ -41,12 +41,10 @@
             <a href="index.php"><img src="img/home.png" alt="home link" id="homeicon"></a>
             <h1 id="subh1">PROJECTS</h1>
             <main>
-                <a href="linked_sites/topsailgrid/index.html"><div class="portfolioimg" id="port1"><img src="img/site1.jpg" alt="topsail beach redesign"></div></a>
-                <h2 class="projecttitles">Topsail Website Redesign</h2>
-                <a href="https://xd.adobe.com/view/abb3eae0-76dc-4951-55a4-bc4b4be9a885-dd82/"><div class="portfolioimg" id="port2"><img src="img/site2.jpg" alt="grocentral mockup"></div></a>
-                <h2 class="projecttitles">grocentral App Mockup</h2>
-                <a href="https://xd.adobe.com/view/33fc9b60-86b5-49bc-7570-5a5db3362ecd-45cd/"><div class="portfolioimg" id="port3"><img src="img/site3.jpg" alt="remotepkg mockup"></a>
-                <h2 class="projecttitles">REMOTEPKG Site Mockup</h2>
+                <a href="https://dsargen25.github.io/hw03-generatepassword/"><div class="portfolioimg" id="port1"><img src="img/site1.jpg" alt="password generator"></div></a>
+                <h2 class="projecttitles">Password Generator</h2>
+                <a href="https://dsargen25.github.io/hw06-weatherdashboard/"><div class="portfolioimg" id="port2"><img src="img/site2.jpg" alt="weather dashboard"></a>
+                <h2 class="projecttitles">Weather Dashboard</h2>
             </main>
         </header>
     </div> 
