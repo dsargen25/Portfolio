@@ -32,10 +32,10 @@
 <body>
     
     <div id="socialmediaicons">
-        <img src="img/social/twitter.png" alt="twitter logo" id="twittersoc">
-        <img src="img/social/linkedin.png" alt="linkedin logo" id="linkedinsoc">
-        <img src="img/social/github.png" alt="github logo" id="githubsoc">
-                <a href="https://dansites.design.blog/"><img src="img/social/wordpress.png" alt="wordpress logo" id="wordpresssoc"></a>
+        <a href="#"><img src="img/social/twitter.png" alt="twitter logo" id="twittersoc"></a>
+        <a href="https://www.linkedin.com/in/daniel-s-bb14261a7/"><img src="img/social/linkedin.png" alt="linkedin logo" id="linkedinsoc"></a>
+        <a href="https://github.com/dsargen25"><img src="img/social/github.png" alt="github logo" id="githubsoc"></a>
+        <a href="#"><img src="img/social/wordpress.png" alt="wordpress logo" id="wordpresssoc"></a>
     </div>
     
     <div id="squaregridcompact">
