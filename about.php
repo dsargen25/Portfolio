@@ -52,13 +52,16 @@
 <main>
 <img src="img/profile.jpg" alt="profile image" id="profimg"><br>
 
-<p>I'm a prospective Front-End Web Developer who has a long-term goal of doing Full Stack Development (Front and Backend.) Working on websites combines the technical, problem-solving nature of programming with the creative exercise of web and graphic design. While I have familiarity in a lot of the technical side, I picked up graphic design and photo restoration as hobbies a little over ten years ago. Starting with open-source software like GIMP and Inkscape, I've more recently transitioned my workflow over to the Adobe Suite. </p>
+<p>
+    Designing a frontend experience from a full stack (client and server-side) perspective can be a bit daunting. It’s convenient to shunt thoughtful, catered design aside for something plainer and more organizational with the myriad frontend frameworks and prebuilt themes.
+</p>
 
-
-<p>I'm familiar with HTML, CSS, JavaScript (and TypeScript), PHP, Python, and MYSQL. As for frameworks, I've mainly used Angular and in the process of learning Django. </p>
-                
-<a href="pdf/sargent_resume.pdf"><img src="img/resume.jpg" alt="resume thumbnail" id="resumethumb"></a>
-<h2 id="resumetitle">RESUME</h2>           
+<p>
+    While as a prospective full-stack web developer, I don’t think it’s wrong to solely incorporate flat or minimal design, it’s important to design with strong direction. In my case, that direction is creating experiences that are snappy and user-friendly, but also homely and organic. I take my inspiration from industrial designers like Emilio Ambasz who did the “green-design” for Fukuoka Prefectural International Hall. Industrial design is not so far removed from web design in this age, and bridging the gap between formal and familiar is something I strive for in all aspects of my work.
+</p>
+    
+<h2 id="resumetitle">RESUME</h2>  
+<a href="pdf/sargent_resume.pdf"><img src="img/resume.jpg" alt="resume thumbnail" id="resumethumb"></a>         
 </main>
             
         </header>
