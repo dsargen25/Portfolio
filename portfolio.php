@@ -43,9 +43,9 @@
             <main>
                 <a href="https://dsargen25.github.io/whats-in-the-pantry/"><div class="portfolioimg" id="port1"><img src="img/projects/proj1.jpg" alt="what's in the pantry?"></div></a>
                 <h2 class="projecttitles">What's in the Pantry?</h2>
-                <a href="https://dsargen25.github.io/hw06-weatherdashboard/"><div class="portfolioimg" id="port3"><img src="img/projects/site1.jpg" alt="weather dashboard"></a>
+                <a href="https://dsargen25.github.io/hw06-weatherdashboard/"><div class="portfolioimg" id="port2"><img src="img/projects/site1.jpg" alt="weather dashboard"></a>
                 <h2 class="projecttitles">Weather Dashboard</h2>
-                <a href="https://dsargen25.github.io/hw03-generatepassword/"><div class="portfolioimg" id="port2"><img src="img/projects/site2.jpg" alt="password generator"></div></a>
+                <a href="https://dsargen25.github.io/hw03-generatepassword/"><div class="portfolioimg" id="port3"><img src="img/projects/site2.jpg" alt="password generator"></div></a>
                 <h2 class="projecttitles">Password Generator</h2>
             </main>
         </header>
