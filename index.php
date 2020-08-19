@@ -25,7 +25,7 @@
         <header id="mobileheader">
             <a href="index.php"><img src="img/home.png" alt="home link" id="homeicon"></a>
             <h1 id="mobiletitle">DANIEL <br> SARGENT</h1>
-            <h2 id="mobilesub">FRONT-END DEVELOPER</h2>
+            <h2 id="mobilesub">WEB DEVELOPER</h2>
         </header>
         <a href="about.php"><div id="aboutblock" class="mobileblock"><p>ABOUT</p></div></a>
         <a href="#"><div id="twitterblock" class="mobileblock"><img src="img/social/twitter.png" alt="twitter logo"></div></a>
