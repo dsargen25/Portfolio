@@ -41,12 +41,12 @@
             <a href="index.php"><img src="img/home.png" alt="home link" id="homeicon"></a>
             <h1 id="subh1">PROJECTS</h1>
             <main>
-                <a href="https://dsargen25.github.io/whats-in-the-pantry/"><div class="portfolioimg" id="port1"><img src="img/projects/proj1.jpg" alt="what's in the pantry?"></div></a>
+                <a href="https://github.com/dsargen25/whatsinthepantry"><div class="portfolioimg" id="port1"><img src="img/projects/whatsinthepantry.jpg" alt="what's in the pantry?"></div></a>
                 <h2 class="projecttitles">What's in the Pantry?</h2>
-                <a href="https://dsargen25.github.io/hw06-weatherdashboard/"><div class="portfolioimg" id="port2"><img src="img/projects/site1.jpg" alt="weather dashboard"></a>
-                <h2 class="projecttitles">Weather Dashboard</h2>
-                <a href="https://dsargen25.github.io/hw03-generatepassword/"><div class="portfolioimg" id="port3"><img src="img/projects/site2.jpg" alt="password generator"></div></a>
-                <h2 class="projecttitles">Password Generator</h2>
+                <a href="https://github.com/dsargen25/thinkcakes"><div class="portfolioimg" id="port2"><img src="img/projects/thinkcakes.jpg" alt="think cakes"></a>
+                <h2 class="projecttitles">Think Cakes</h2>
+                <a href="https://github.com/dsargen25/hikingapp"><div class="portfolioimg" id="port3"><img src="img/projects/hikingapp.jpg" alt="trailshare"></div></a>
+                <h2 class="projecttitles">Trailshare</h2>
             </main>
         </header>
     </div> 
